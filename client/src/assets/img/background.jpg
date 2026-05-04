@@ -1,0 +1,14 @@
+# Background Image Placeholder
+
+This file serves as a placeholder for the optional background image system.
+
+To use a background image instead of the gradient:
+1. Replace this file with your desired background image (background.jpg)
+2. Uncomment the background image line in assets/css/responsive.css
+3. The image will be applied as a full-screen background
+
+Recommended specifications:
+- Format: JPG or WebP
+- Resolution: 1920x1080 or higher
+- File size: Under 500KB for optimal performance
+- Content: Subtle pattern or texture that doesn't interfere with text readability

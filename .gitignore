@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+server/public/
+client/public/build/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# Claude Code internal
+.claude/
+.config/
+.local/
+
+# Vite
+vite.config.ts.*
+
+# Archives / backups
+*.tar.gz
+*.zip
+
+# ─── Capacitor / iOS ───
+ios/App/Pods/
+ios/App/build/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/DerivedData/
+ios/.tmp/
+ios/capacitor-cordova-ios-plugins/
+
+# ─── Capacitor / Android ───
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+android/app/release/
+android/app/debug/
+android/keystore.properties
+*.jks
+*.keystore
+
+# ─── Scraper ───
+scraper/scraper-progress.json
+scraper/.cache/
+
+# ─── Generated screenshots (regenerate via script) ───
+app-store-screenshots/
+
+# ─── Logs ───
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pasted clipboard files (temporary)
+attached_assets/

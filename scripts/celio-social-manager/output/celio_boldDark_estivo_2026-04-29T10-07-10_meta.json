@@ -1,0 +1,43 @@
+{
+  "videoFile": "celio_boldDark_estivo_2026-04-29T10-07-10.mp4",
+  "template": "boldDark",
+  "templateName": "Bold Dark",
+  "style": "Estivo",
+  "season": "Estate 2026",
+  "totalPrice": "160.95",
+  "caption": "Stile Estivo | Collezione Estate 2026\n\nChemisette regular unie en lin et coton | 32.99 EUR\nBermuda en jean coton stretch | 29.99 EUR\nChemise oversize à rayures 100% coton oxford | 35.99 EUR\nBermuda uni effet délavé 100% coton | 25.99 EUR\nChemise regular en jersey | 35.99 EUR\n\nPrezzo totale: 160.95 EUR\n\nDisponibile online e nei nostri negozi:\nMilano - Verona - Padova - Vicenza - Biella\n\nhttps://celiopromo.it\n\n#celio #celioitalia #modauomo #fashion #menswear #ootd #style #uomo #abbigliamentouomo #modaitaliana #milano #verona #padova #lookdelgiorno",
+  "createdAt": "2026-04-29T10:07:11.925Z",
+  "posted": false,
+  "products": [
+    {
+      "id": 469,
+      "name": "Chemisette regular unie en lin et coton - bleu",
+      "price": "32.99",
+      "category": "Chemises"
+    },
+    {
+      "id": 933,
+      "name": "Bermuda en jean coton stretch - noir délavé",
+      "price": "29.99",
+      "category": "Shorts"
+    },
+    {
+      "id": 475,
+      "name": "Chemise oversize à rayures 100% coton oxford - bleu clair",
+      "price": "35.99",
+      "category": "Chemises"
+    },
+    {
+      "id": 984,
+      "name": "Bermuda uni effet délavé 100% coton - bleu",
+      "price": "25.99",
+      "category": "Shorts"
+    },
+    {
+      "id": 565,
+      "name": "Chemise regular en jersey - blanc",
+      "price": "35.99",
+      "category": "Chemises"
+    }
+  ]
+}

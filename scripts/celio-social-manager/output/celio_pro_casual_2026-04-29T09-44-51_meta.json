@@ -1,0 +1,32 @@
+{
+  "videoFile": "celio_pro_casual_2026-04-29T09-44-51.mp4",
+  "style": "casual",
+  "season": "Primavera 2026",
+  "totalPrice": "75.97",
+  "caption": "Il look casual firmato CELIO\n\nPolo regular 100% coton en maille gaufré | 29.99 EUR\nPantalon de jogging regular maille piqué | 29.99 EUR\nPolo piqué regular 100% coton | 15.99 EUR\n\nLook completo: 75.97 EUR\n\nScopri di piu: https://workwatchspace.one\nDisponibile nei nostri 8 negozi in Italia\nMilano | Verona | Padova | Vicenza | Biella\n\n#celio #celioitalia #modauomo #fashion #menswear #ootd #style #uomo #abbigliamentouomo #modaitaliana #milano #verona #padova #lookdelgiorno",
+  "createdAt": "2026-04-29T09:44:54.358Z",
+  "posted": false,
+  "source": "creatomate",
+  "templateId": "33307fe2-876f-4d31-bed7-d59d04111f1a",
+  "renderId": "8264989a-b30b-45fc-8416-b997ea7d0d97",
+  "products": [
+    {
+      "id": 373,
+      "name": "Polo regular 100% coton en maille gaufré - bleu marine",
+      "price": "29.99",
+      "category": "Polos"
+    },
+    {
+      "id": 210,
+      "name": "Pantalon de jogging regular maille piqué - gris",
+      "price": "29.99",
+      "category": "Pantalons"
+    },
+    {
+      "id": 282,
+      "name": "Polo piqué regular 100% coton - rose",
+      "price": "15.99",
+      "category": "Polos"
+    }
+  ]
+}

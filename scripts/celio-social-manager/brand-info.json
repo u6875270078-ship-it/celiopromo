@@ -1,0 +1,80 @@
+{
+  "brand": {
+    "name": "CELIO",
+    "fullName": "Celio Italia",
+    "type": "Moda Uomo",
+    "target": "Solo uomo",
+    "country": "Italia",
+    "website": "https://celiopromo.it",
+    "description": "Eleganza italiana - Moda uomo premium"
+  },
+  "stores": [
+    {
+      "name": "Biella",
+      "city": "BIELLA",
+      "address": "Via San Filippo 3, BIELLA",
+      "phone": "30000000",
+      "email": "biella@dsimmoretail.it"
+    },
+    {
+      "name": "Centro Commerciale Fiordaliso",
+      "city": "Milano",
+      "address": "Via Eugenio Curiel, 25, 20089 Rozzano MI, Milano",
+      "phone": "0257503946",
+      "email": "celiorozzano@dsimmoretail.it"
+    },
+    {
+      "name": "Carosello - Centro Commerciale",
+      "city": "Milano",
+      "address": "SP208 km2 Carugate (Mi) 20061, Milano",
+      "phone": "0292151878",
+      "email": "Carosello@dsimmoretail.it"
+    },
+    {
+      "name": "Centro commerciale Giotto",
+      "city": "Padova",
+      "address": "Via Venezia 59/61, 35129, Padova",
+      "phone": "0497811035",
+      "email": "celiopadova@dsimmoretail.it"
+    },
+    {
+      "name": "Centro Commerciale ADIGEO",
+      "city": "Verona",
+      "address": "Viale delle nazioni 1, 37135, Verona",
+      "phone": "045585709",
+      "email": "celioadigeo@dsimmoretail.it"
+    },
+    {
+      "name": "CELIO GRAND'AFFI SHOPPING CENTER",
+      "city": "Verona",
+      "address": "Via Giovanni Pascoli, 37010 Affi, Verona",
+      "phone": "045626453",
+      "email": "celioaffi@dsimmoretail.it"
+    },
+    {
+      "name": "Centro Commerciale La GrandeMela Shoppingland",
+      "city": "Verona",
+      "address": "Via del Trentino, 1, Verona",
+      "phone": "0456090367",
+      "email": "celiomela@dsimmoretail.it"
+    },
+    {
+      "name": "Centro Commerciale Thiene",
+      "city": "Vicenza",
+      "address": "Via del Terziario, 2, Vicenza",
+      "phone": "0445372507",
+      "email": "celiothiene@dsimmoretail.it"
+    }
+  ],
+  "cities": ["Biella", "Milano", "Padova", "Verona", "Vicenza"],
+  "socialMedia": {
+    "captionRules": {
+      "language": "italiano",
+      "target": "solo uomo",
+      "tone": "elegante, professionale",
+      "mustInclude": ["link al sito", "moda uomo", "negozi in Italia"],
+      "hashtagsBase": "#celio #celioitalia #modauomo #fashion #menswear #ootd #style #uomo #abbigliamentouomo #modaitaliana",
+      "hashtagsCities": "#milano #verona #padova #vicenza #biella"
+    }
+  }
+}

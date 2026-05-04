@@ -1,0 +1,49 @@
+{
+  "database": {
+    "url": "postgresql://neondb_owner:npg_gQUx9mM5rGko@ep-curly-silence-anjx1ujn.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  },
+  "facebook": {
+    "pageId": "",
+    "pageAccessToken": "",
+    "appId": "",
+    "appSecret": ""
+  },
+  "instagram": {
+    "businessAccountId": "",
+    "accessToken": ""
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "imageDuration": 2.5,
+    "transitionDuration": 0.5,
+    "maxProducts": 8,
+    "outputDir": "./output",
+    "musicDir": "./music",
+    "fontPath": "C:/Windows/Fonts/arial.ttf",
+    "brandName": "CELIO Italia",
+    "brandColor": "#1a1a2e",
+    "textColor": "#ffffff",
+    "priceColor": "#ffd700"
+  },
+  "autopilot": {
+    "enabled": false,
+    "postTime": "10:00",
+    "timezone": "Europe/Rome",
+    "postsPerDay": 1,
+    "platforms": ["facebook"],
+    "styles": ["Casual", "Estivo", "Elegante", "Invernale"],
+    "captionLanguage": "it"
+  },
+  "captions": {
+    "templates": [
+      "Il look {style} firmato CELIO\n\n{products}\n\nLook completo: {price} EUR\n\nScopri di piu: {link}\nDisponibile nei nostri 8 negozi in Italia\nMilano | Verona | Padova | Vicenza | Biella\n\n{hashtags}",
+      "Uomo, il tuo stile parla per te.\nCollezione {season} - Stile {style}\n\n{products}\n\nA partire da {price} EUR\n\nAcquista online: {link}\nO vieni a trovarci in negozio\n\n{hashtags}",
+      "Nuovo in CELIO Italia!\n\n{products}\n\nLook completo solo {price} EUR\nSpedizione gratuita sopra 50 EUR\n\nShop online: {link}\n8 negozi in tutta Italia\n\n{hashtags}",
+      "Stile {style} | Collezione {season}\n\n{products}\n\nPrezzo totale: {price} EUR\n\nDisponibile online e nei nostri negozi:\nMilano - Verona - Padova - Vicenza - Biella\n\n{link}\n\n{hashtags}"
+    ],
+    "hashtags": "#celio #celioitalia #modauomo #fashion #menswear #ootd #style #uomo #abbigliamentouomo #modaitaliana #milano #verona #padova #lookdelgiorno",
+    "siteUrl": "https://celiopromo.it"
+  }
+}

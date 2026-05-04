@@ -1,0 +1,37 @@
+{
+  "videoFile": "celio_sideBySide_casual_2026-04-29T10-06-31.mp4",
+  "template": "sideBySide",
+  "templateName": "Side by Side",
+  "style": "Casual",
+  "season": "Primavera 2026",
+  "totalPrice": "115.96",
+  "caption": "Uomo, il tuo stile parla per te.\nCollezione Primavera 2026 - Stile Casual\n\nChemise slim en coton stretch | 25.99 EUR\nPantalon de costume slim bi-stretch | 29.99 EUR\nChemise regular chinée | 29.99 EUR\nPantalon chino straight en coton stretch longueur standard | 29.99 EUR\n\nA partire da 115.96 EUR\n\nAcquista online: https://celiopromo.it\nO vieni a trovarci in negozio\n\n#celio #celioitalia #modauomo #fashion #menswear #ootd #style #uomo #abbigliamentouomo #modaitaliana #milano #verona #padova #lookdelgiorno",
+  "createdAt": "2026-04-29T10:06:34.834Z",
+  "posted": false,
+  "products": [
+    {
+      "id": 513,
+      "name": "Chemise slim en coton stretch - sauge",
+      "price": "25.99",
+      "category": "Chemises"
+    },
+    {
+      "id": 78,
+      "name": "Pantalon de costume slim bi-stretch - vert clair",
+      "price": "29.99",
+      "category": "Pantalons"
+    },
+    {
+      "id": 482,
+      "name": "Chemise regular chinée - bleu",
+      "price": "29.99",
+      "category": "Chemises"
+    },
+    {
+      "id": 192,
+      "name": "Pantalon chino straight en coton stretch longueur standard - bleu clair",
+      "price": "29.99",
+      "category": "Pantalons"
+    }
+  ]
+}

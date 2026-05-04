@@ -1,0 +1,21 @@
+{
+  "name": "celio-social-manager",
+  "version": "1.0.0",
+  "description": "Celio Italia - Generatore automatico video e pubblicazione social media",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "video": "node create-video.mjs",
+    "post": "node post-facebook.mjs",
+    "autopilot": "node autopilot.mjs",
+    "preview": "node create-video.mjs --preview",
+    "test-post": "node post-facebook.mjs --test"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "ws": "^8.18.0",
+    "node-cron": "^3.0.3",
+    "fluent-ffmpeg": "^2.1.3",
+    "sharp": "^0.33.0"
+  }
+}
