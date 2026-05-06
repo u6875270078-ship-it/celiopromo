@@ -21,13 +21,15 @@ workflows:
             /usr/libexec/PlistBuddy -c "Set :NSCameraUsageDescription 'Celio utilizza la fotocamera per la prova virtuale degli abiti.'" $PLIST
           /usr/libexec/PlistBuddy -c "Add :NSPhotoLibraryUsageDescription string 'Celio accede alle tue foto per provare virtualmente gli abiti.'" $PLIST 2>/dev/null || \
             /usr/libexec/PlistBuddy -c "Set :NSPhotoLibraryUsageDescription 'Celio accede alle tue foto per provare virtualmente gli abiti.'" $PLIST
-      - name: Initialize keychain
+      - name: Initialize keychain and generate cert private key
         script: |
           keychain initialize
+          openssl genrsa -out /tmp/distribution_cert.key 2048
       - name: Fetch or create App Store signing files
         script: |
           app-store-connect fetch-signing-files "it.celiopromo.app" \
             --type IOS_APP_STORE \
+            --certificate-key=@file:/tmp/distribution_cert.key \
             --create
       - name: Add certificates to keychain
         script: |
