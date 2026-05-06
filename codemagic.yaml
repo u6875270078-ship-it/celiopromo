@@ -6,7 +6,7 @@ workflows:
     integrations:
       app_store_connect: CelioPromo
     environment:
-      node: 20.11.0
+      node: 22
       xcode: latest
     scripts:
       - name: Install dependencies and build web
