@@ -6,9 +6,6 @@ workflows:
     integrations:
       app_store_connect: CelioPromo
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: it.celiopromo.app
       node: 20.11.0
       xcode: latest
     scripts:
@@ -24,14 +21,27 @@ workflows:
             /usr/libexec/PlistBuddy -c "Set :NSCameraUsageDescription 'Celio utilizza la fotocamera per la prova virtuale degli abiti.'" $PLIST
           /usr/libexec/PlistBuddy -c "Add :NSPhotoLibraryUsageDescription string 'Celio accede alle tue foto per provare virtualmente gli abiti.'" $PLIST 2>/dev/null || \
             /usr/libexec/PlistBuddy -c "Set :NSPhotoLibraryUsageDescription 'Celio accede alle tue foto per provare virtualmente gli abiti.'" $PLIST
-      - name: Set unique build number
+      - name: Initialize keychain
+        script: |
+          keychain initialize
+      - name: Fetch or create App Store signing files
+        script: |
+          app-store-connect fetch-signing-files "it.celiopromo.app" \
+            --type IOS_APP_STORE \
+            --create
+      - name: Add certificates to keychain
+        script: |
+          keychain add-certificates
+      - name: Apply profiles to Xcode project
+        script: |
+          xcode-project use-profiles
+      - name: Set build number
         script: |
           cd ios/App
           BUILD_NUMBER=$(date +%s)
           agvtool new-version -all $BUILD_NUMBER
       - name: Build IPA
         script: |
-          xcode-project use-profiles
           xcode-project build-ipa \
             --project "ios/App/App.xcodeproj" \
             --scheme "App"
