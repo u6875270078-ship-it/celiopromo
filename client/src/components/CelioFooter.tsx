@@ -25,7 +25,16 @@ const CelioFooter = () => (
         </div>
       </div>
 
-      <div className="pb-12"></div>
+      <div className="border-t border-gray-200 pt-6 pb-8 text-center text-xs text-gray-500 space-y-1">
+        <p className="font-medium text-gray-700">DS IMMO SRL</p>
+        <p>Via San Filippo 13, 13900 Biella (BI), Italia</p>
+        <p>
+          <a href="/privacy" className="hover:text-gray-900 underline underline-offset-2">Privacy</a>
+          <span className="mx-2">·</span>
+          <a href="/contatti" className="hover:text-gray-900 underline underline-offset-2">Contatti</a>
+        </p>
+        <p>© 2026 DS IMMO SRL. Tutti i diritti riservati.</p>
+      </div>
     </div>
   </div>
 );
