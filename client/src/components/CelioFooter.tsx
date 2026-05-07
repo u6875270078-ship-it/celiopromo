@@ -26,14 +26,16 @@ const CelioFooter = () => (
       </div>
 
       <div className="border-t border-gray-200 pt-6 pb-8 text-center text-xs text-gray-500 space-y-1">
-        <p className="font-medium text-gray-700">DS IMMO SRL</p>
-        <p>Via San Filippo 13, 13900 Biella (BI), Italia</p>
+        <p className="font-medium text-gray-700">DS IMMO S.R.L.</p>
+        <p>Sede legale: Galleria del Corso 2, 20122 Milano (MI), Italia</p>
+        <p>P.IVA / C.F. 11213220962 · REA MI-2587308 · Capitale sociale € 10.000,00 i.v.</p>
+        <p>PEC: <a href="mailto:dsimmo@legalmail.it" className="hover:text-gray-900 underline underline-offset-2">dsimmo@legalmail.it</a></p>
         <p>
           <a href="/privacy" className="hover:text-gray-900 underline underline-offset-2">Privacy</a>
           <span className="mx-2">·</span>
           <a href="/contatti" className="hover:text-gray-900 underline underline-offset-2">Contatti</a>
         </p>
-        <p>© 2026 DS IMMO SRL. Tutti i diritti riservati.</p>
+        <p>© 2026 DS IMMO S.R.L. Tutti i diritti riservati.</p>
       </div>
     </div>
   </div>
